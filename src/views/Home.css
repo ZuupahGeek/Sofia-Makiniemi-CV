@@ -1,0 +1,84 @@
+
+.background-img img {
+    filter:brightness(80%);
+    width: 100%;
+    height:auto;
+    z-index: -1;
+}
+.background-img h2 {
+    font-family: "athelas", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-size: 2.5rem;
+    color: aliceblue;
+    position: absolute;
+    z-index: 1;
+    /* width: 25rem; */
+    top: 20rem;
+    left: 25rem;
+}
+.background-img h4 {
+    font-size: 1.8rem;
+    color: aliceblue;
+    position: absolute;
+    z-index: 2;
+    width: 30rem;
+    top: 23.5rem;
+    left: 25rem;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .background-img img {  
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .background-img h2 {
+        font-size: 2.5rem;
+        width: 20rem;
+        top: 14rem;
+    }
+   
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .background-img img {
+        padding-top: 3.5rem;
+    }
+    .background-img h2 {
+        font-size: 2.5rem;
+        width: 20rem;
+        top: 20rem;
+        left: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .background-img h2 {
+        font-size: 2.2rem;
+        width: 20rem;
+        top: 17rem;
+        left: 3rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .background-img h2 {
+        font-size: 1.5rem;
+        width: 20rem;
+        top: 15rem;
+        left: 3rem;
+    }
+}
+
+
+
+

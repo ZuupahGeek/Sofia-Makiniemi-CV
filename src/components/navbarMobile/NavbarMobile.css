@@ -1,0 +1,96 @@
+body, html {
+    box-sizing: border-box;
+    padding: 0;
+  }
+.navbar-mobile  span {
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    /* margin-right: 3rem; */
+  }
+.navbar-mobile a {
+    text-decoration: none;
+}
+.navbar-mobile {
+    z-index: 10;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #a78c72;
+    width: 100%;
+    height: 3.5rem;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-mobile-name {
+    font-size:0.8rem;
+}
+.navbar-mobile-name h1 {
+    color: #ffffff;
+    
+}
+.navbar-mobile-socials {
+    font-size: 1.3rem;  
+}
+.navbar-mobile-socials a {
+    margin-left: 1rem;
+    
+}
+.navbar-mobile-socials i {
+    color: #fff;
+}
+
+.navbar-mobile-links {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-mobile-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar-mobile-name {
+        font-size:0.7rem;
+        width: 6rem;
+    }
+    .navbar-mobile  span {
+        font-size: 1.3rem;
+
+      }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar-mobile {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .navbar-mobile-name {
+        font-size:0.5rem;
+        width: 3rem;
+    }
+    .navbar-mobile  span {
+        font-size: 1rem;
+
+    }
+      .navbar-mobile-socials {
+        font-size: 1.3rem; 
+    }
+    .navbar-mobile-socials a {
+        margin-left: 0.3rem;
+        
+    }
+    .navbar-mobile-links {
+        width: 11rem;
+       
+
+    }
+
+}

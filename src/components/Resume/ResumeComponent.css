@@ -1,0 +1,72 @@
+.schoolComponent {
+    width: 30rem;
+}
+.jobComponent {
+    width: 15rem;
+}
+
+
+
+.rendered h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.rendered button {
+    border: none;
+    background-color: #e5dac6;
+    font-size: 1rem;
+}
+.rendered button:hover {
+    color: #cc6f57;
+    font-size: 1.1rem;
+    cursor:pointer;
+}
+
+
+.card {
+    margin-bottom: 1rem;
+    /* padding-right: 2rem; */
+    padding-left: 1rem;
+    border-left: 4px dotted black;
+    
+}
+
+.card-content h2 {
+    font-size: 1rem;
+}
+.card-content h5 {
+    font-style: italic;
+    font-weight: 500;
+}
+.date-text {
+    text-align: center;
+    right: 1%;
+    left: 1%;
+    width: 11rem;
+    background-color: #cc6f57;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+.date-text p {
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .schoolComponent {
+        width: 25rem;
+    }
+    .jobComponent {
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .schoolComponent {
+        width: 20rem;
+    }
+    .jobComponent {
+        width: 15rem;
+    }
+}

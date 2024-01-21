@@ -1,0 +1,93 @@
+.about-page {
+    width: 100%;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #cc6f57;
+    padding-bottom: 3rem;
+    margin-top: -1rem;
+}
+.about-page h1{
+    z-index: 3;
+    padding-bottom: 0.4rem;
+    width: 4rem;
+    border-bottom: 3px solid #000;
+
+}
+.about-intro {
+    margin-top: 1rem;
+}
+.about-info {
+    margin-top: 2rem;
+}
+.about-info .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 50px ;    
+}
+.about-info h4 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+.about-info img {
+    width: 15rem;
+}
+.about-info .container {
+    margin-left: 2rem;
+    width: 40rem;
+    justify-content: space-between;
+}
+.about-info .container p {
+    font-size: 1.1rem;
+}
+.about-info .container div {
+    margin-right: 1rem;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .about-info .grid-container {
+
+        grid-template-columns: auto auto;
+   
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about-info .grid-container {
+
+        grid-template-columns: auto auto auto auto;
+   
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .about-info .grid-container {
+
+        grid-template-columns: auto auto auto;
+   
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .about-info .grid-container {
+
+        grid-template-columns: auto auto;
+   
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .about-info .grid-container {
+
+        grid-template-columns: auto;
+   
+    }
+}

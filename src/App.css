@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#views {
+  margin-left: 18rem;
+}
+
+
+
+.app-navbar-mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+.app-navbar {
+  display: none;
+}
+.app-navbar-mobile {
+  display: block;
+}
+#views {
+  margin-left: 0rem;
+}
+
+}
