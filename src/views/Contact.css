@@ -1,30 +1,39 @@
 .contact-page {
-    background-color: #e5dac6; 
+    background-color: #ddcacb; 
     padding-top: 1rem;
     padding-bottom: 4rem;
-    padding-left: 21rem;
 }
 .contact-page > h1 {
     z-index: 3;
     padding-bottom: 0.4rem;
+    margin-left: 3rem;
     width: 4rem;
     border-bottom: 3px solid rgb(0, 2, 20);
 }
 .contact-content {
    
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items:center;
     flex-direction: column;
+    padding-top: 4rem;
    
 }
 .contact-page h3 {
     font-size: x-large;
     text-align: center;
 }
+.contact-content a {
+
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.contact-mail {
+    padding-bottom: 2rem;
+}
 .contact-form {
     border-radius: 10px;
-    
     height: 20rem;
     width: 30rem;
 }

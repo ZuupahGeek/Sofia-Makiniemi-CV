@@ -7,7 +7,8 @@ import Home from './views/Home'
 import About from './views/About';
 import Resume from './views/Resume';
 import Projects from './views/Projects';
-import Footer from './components/Footer/Footer';
+import Contact from './views/Contact';
+// import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -30,9 +31,12 @@ function App() {
           <div id="projects">
             <Projects />
           </div>
-          <div>
-            <Footer />
+          <div id="contact">
+            <Contact />
           </div>
+          {/* <div>
+            <Footer />
+          </div> */}
         </div>
       </div>
     </BrowserRouter>

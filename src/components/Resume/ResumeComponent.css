@@ -13,11 +13,11 @@
 }
 .rendered button {
     border: none;
-    background-color: #e5dac6;
+    background-color: #ddcacb;
     font-size: 1rem;
 }
 .rendered button:hover {
-    color: #cc6f57;
+    color: #0e6151;
     font-size: 1.1rem;
     cursor:pointer;
 }
@@ -43,7 +43,7 @@
     right: 1%;
     left: 1%;
     width: 11rem;
-    background-color: #cc6f57;
+    background-color: #0e61508e;
     margin-top: 0.7rem;
     margin-bottom: 0.7rem;
 }

@@ -3,13 +3,14 @@
     padding-bottom: 3rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    background-color: #cc6f57;
+    background-color: #08372e;
 }
 .project-page > h1{
     z-index: 3;
     padding-bottom: 0.4rem;
     margin-bottom: 2rem;
     width: 4rem;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #fff;
+    color: #fff;
 
 }

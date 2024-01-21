@@ -1,6 +1,5 @@
 
 .background-img img {
-    filter:brightness(80%);
     width: 100%;
     height:auto;
     z-index: -1;
@@ -15,7 +14,7 @@
     position: absolute;
     z-index: 1;
     /* width: 25rem; */
-    top: 20rem;
+    top: 15rem;
     left: 25rem;
 }
 .background-img h4 {

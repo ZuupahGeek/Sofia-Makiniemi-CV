@@ -31,8 +31,8 @@ const Navbar = () => {
       <div className='navbar-socials'>
         <Link to="https://www.linkedin.com/in/sofia-m%C3%A4kiniemi-832522228/" target={'_blank'}><i className="fa-brands fa-linkedin"></i></Link>
         <Link to="https://www.instagram.com/smakiniemi_art/" target={'_blank'}><i className="fa-brands fa-instagram"></i></Link>
-        <Link to="https://www.facebook.com/sofia.makiniemi" target={'_blank'}><i className="fa-brands fa-facebook"></i></Link>
-        
+       
+       
       </div>
       <ul className='navbar-links'>
         
@@ -49,6 +49,11 @@ const Navbar = () => {
         <li>
           <HashLink smooth to="/#projects">
             <span>Portfolio</span>
+          </HashLink>
+        </li>
+        <li>
+          <HashLink smooth to="/#contact">
+            <span>Contact</span>
           </HashLink>
         </li>
      

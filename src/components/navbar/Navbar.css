@@ -9,7 +9,7 @@ a {
 }
 .navbar {
     padding-left: 2rem;
-    background-color: #6F9984;
+    background-color: #0e6151;
     width: 18rem;
     height: 100%;
     position: fixed;
@@ -24,7 +24,7 @@ a {
     width: 9rem;
     aspect-ratio: 4/4;
     border-radius: 100% / 125% 125% 80% 80%;
-    border: 7px solid #cc6f57;
+    border: 7px solid #08372e;
 }
 .navbar-name {
     margin-left: 0.8rem;

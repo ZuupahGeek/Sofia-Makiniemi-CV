@@ -3,7 +3,7 @@
     padding-top: 4rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    background-color: #cc6f57;
+    background-color: #08372e;
     padding-bottom: 3rem;
     margin-top: -1rem;
 }
@@ -11,14 +11,17 @@
     z-index: 3;
     padding-bottom: 0.4rem;
     width: 4rem;
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid #fff;
+    color: #fff;
 
 }
 .about-intro {
     margin-top: 1rem;
+    color: #fff;
 }
 .about-info {
     margin-top: 2rem;
+    color: #fff;
 }
 .about-info .grid-container {
     display: grid;
