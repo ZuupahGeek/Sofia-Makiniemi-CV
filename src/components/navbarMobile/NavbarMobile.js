@@ -21,7 +21,7 @@ const navbarMobile = () => {
       {/* </div> */}
       <div className='navbar-mobile-name'>
         <HashLink smooth to="/#home" > 
-          <h1>Alexander Agelou</h1>
+          <h1>Sofia Mäkiniemi</h1>
         </HashLink>
       </div>
       
@@ -29,25 +29,29 @@ const navbarMobile = () => {
         
       
           <HashLink smooth to="/#about">
-            <span>Profil</span>
+            <span>Bio</span>
           </HashLink>
         
       
           <HashLink smooth to="/#resume">
-          <span>Erfarenhet</span>
+          <span>Resume</span>
+          </HashLink>
+
+
+          <HashLink smooth to="/#exhibitions">
+          <span>Exhibitions</span>
           </HashLink>
         
       
-          <HashLink smooth to="/#projects">
+          {/* <HashLink smooth to="/#projects">
             <span>Portfolio</span>
-          </HashLink>
+          </HashLink> */}
         
      
       </div>
       <div className='navbar-mobile-socials'>
-        <Link to="https://www.linkedin.com/in/alexander-agelou-57868b236/" target={'_blank'}><i className="fa-brands fa-linkedin"></i></Link>
-        <Link to="https://www.instagram.com/alexanderagelou/" target={'_blank'}><i className="fa-brands fa-instagram"></i></Link>
-        <Link to="https://www.facebook.com/Alexander.agelou" target={'_blank'}><i className="fa-brands fa-facebook"></i></Link>
+        <Link to="https://www.linkedin.com/in/sofia-m%C3%A4kiniemi-832522228/" target={'_blank'}><i className="fa-brands fa-linkedin"></i></Link>
+        <Link to="https://www.instagram.com/smakiniemi_art/" target={'_blank'}><i className="fa-brands fa-instagram"></i></Link>
         
       </div>
     </nav>

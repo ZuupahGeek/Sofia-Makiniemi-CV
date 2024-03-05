@@ -1,22 +1,22 @@
-import {useState} from 'react';
+// import {useState} from 'react';
 import './ResumeComponent.css';
 
 
 
 const ResumeComponent = ({resumeList = [{}], heading}) => {
 
-    let [showMore, setShowMore] = useState(1);
+    // let [showMore, setShowMore] = useState(1);
     let arrayLength = resumeList.length + 1;
 
-    function handleShowMore() {
-      if (showMore === 1) {
-        setShowMore(arrayLength)}
-        else {
-        setShowMore(1)
-      }
-    }
+    // function handleShowMore() {
+    //   if (showMore === 1) {
+    //     setShowMore(arrayLength)}
+    //     else {
+    //     setShowMore(1)
+    //   }
+    // }
 
-    const resumeListMap = resumeList.slice(0, showMore).map(
+    const resumeListMap = resumeList.slice(0, arrayLength).map(
       (element, id) => {
         return (
           <div className='card' key={id}>
@@ -25,9 +25,7 @@ const ResumeComponent = ({resumeList = [{}], heading}) => {
                   <div className='date-text'><p>{element.date}</p></div>
                   <h5>{element.location}</h5>
                   <p>{element.description}</p>
-                  {element.description1 != null ? <li>{element.description1}</li> : ""}
-                  {element.description2 != null ? <li>{element.description2}</li> : ""}
-                  {element.description3 != null ? <li>{element.description3}</li> : ""}
+                  {element.description1 != null ? <p>{element.description1}</p> : ""}
               </div>
           </div>
               
@@ -39,9 +37,9 @@ const ResumeComponent = ({resumeList = [{}], heading}) => {
     <div className='rendered'>
             <h1>{heading}</h1>
             {resumeListMap}
-            <button className="btn" onClick={() => handleShowMore()}>
+            {/* <button className="btn" onClick={() => handleShowMore()}>
             {showMore === 1 ? "Visa Mer" : "Visa Mindre"}
-            </button>
+            </button> */}
     </div>
   )
 }

@@ -8,6 +8,7 @@ import About from './views/About';
 import Resume from './views/Resume';
 import Projects from './views/Projects';
 import Contact from './views/Contact';
+import Exhibitions from './views/Exhibitions';
 // import Footer from './components/Footer/Footer';
 
 
@@ -27,6 +28,9 @@ function App() {
           </div>
           <div id="resume">
             <Resume />
+          </div>
+          <div id="exhibitions">
+            <Exhibitions />
           </div>
           <div id="projects">
             <Projects />

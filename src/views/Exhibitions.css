@@ -1,0 +1,36 @@
+.exhibitions-page {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #08372e;
+}
+.exhibitions-page > h1 {
+    z-index: 3;
+    padding-bottom: 0.4rem;
+    margin-bottom: 2rem;
+    width: 4rem;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+}
+.exhibition-item p {
+    z-index: 3;
+    padding: 0.4rem;
+    /* margin-bottom: 2rem; */
+    width: 18rem;
+    /* border-bottom: 3px solid #fff; */
+    color: #fff;
+}
+.exhibition-item {
+    border: 3px solid white;
+}
+.exhibition-name {
+    font-weight: bold;
+}
+.exhibitions-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    row-gap: 4rem;
+    column-gap: 6rem;
+}

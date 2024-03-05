@@ -38,19 +38,24 @@ const Navbar = () => {
         
         <li>
           <HashLink smooth to="/#about">
-            <span>Profil</span>
+            <span>Bio</span>
           </HashLink>
         </li>
         <li>
           <HashLink smooth to="/#resume">
-          <span>Erfarenhet</span>
+          <span>Resume</span>
           </HashLink>
         </li>
         <li>
+          <HashLink smooth to="/#exhibitions">
+          <span>Exhibitions</span>
+          </HashLink>
+        </li>
+        {/* <li>
           <HashLink smooth to="/#projects">
             <span>Portfolio</span>
           </HashLink>
-        </li>
+        </li> */}
         <li>
           <HashLink smooth to="/#contact">
             <span>Contact</span>

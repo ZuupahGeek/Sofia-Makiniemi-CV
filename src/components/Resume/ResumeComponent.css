@@ -1,8 +1,8 @@
 .schoolComponent {
-    width: 30rem;
+    width: 15rem;
 }
 .jobComponent {
-    width: 15rem;
+    width: 30rem;
 }
 
 
@@ -54,19 +54,19 @@
 @media only screen and (max-width: 1300px) {
 
     .schoolComponent {
-        width: 25rem;
+        width: 18rem;
     }
     .jobComponent {
-        width: 18rem;
+        width: 25rem;
     }
 }
 
 @media only screen and (max-width: 1200px) {
 
     .schoolComponent {
-        width: 20rem;
+        width: 15rem;
     }
     .jobComponent {
-        width: 15rem;
+        width: 20rem;
     }
 }

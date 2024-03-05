@@ -1,0 +1,8 @@
+.carousel-item img{
+    max-width: 20rem;
+}
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
