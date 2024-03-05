@@ -19,6 +19,9 @@
     margin-top: 1rem;
     color: #fff;
 }
+.about-intro p {
+    margin-bottom: 1rem;
+}
 .about-info {
     margin-top: 2rem;
     color: #fff;
