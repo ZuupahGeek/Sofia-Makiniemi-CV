@@ -4,7 +4,6 @@ import './About.css'
 const About = () => {
   return (
     <div className='about-page'>
-        <h1>Bio</h1>
         <div className='about-intro'>
             <p>Sofia Mäkiniemi is a multifaceted Swedish artist currently living in Bournemouth UK.
                 With a diverse background that spans music, art history, and curation, Mäkiniemi's artistic journey is a testament to the richness that interdisciplinary exploration can bring to the creative process. </p>

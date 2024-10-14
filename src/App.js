@@ -1,49 +1,36 @@
 
 import './App.css';
-import { BrowserRouter } from "react-router-dom";
+import {  Routes, Route } from "react-router-dom";
 import Navbar from './components/navbar/Navbar';
 import NavbarMobile from './components/navbarMobile/NavbarMobile';
 import Home from './views/Home'
-import About from './views/About';
-import Resume from './views/Resume';
-import Projects from './views/Projects';
+// import About from './views/About';
+import CV from './views/CV';
+// import Projects from './views/Projects';
 import Contact from './views/Contact';
-import Exhibitions from './views/Exhibitions';
+import Practice from './views/Practice';
+// import Exhibitions from './views/Exhibitions';
 // import Footer from './components/Footer/Footer';
 
 
 function App() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
       <div>
         <div className='app-navbar'><Navbar /></div>
         <div className='app-navbar-mobile'><NavbarMobile /></div>
-      
-        <div id='views'>    
-          <div id="home">
-            <Home />
-          </div>
-          <div id="about">
-            <About />
-          </div>
-          <div id="resume">
-            <Resume />
-          </div>
-          <div id="exhibitions">
-            <Exhibitions />
-          </div>
-          <div id="projects">
-            <Projects />
-          </div>
-          <div id="contact">
-            <Contact />
-          </div>
-          {/* <div>
-            <Footer />
-          </div> */}
+        <div className='views'>
+          <Routes>
+            {/* <div id='views'>     */}
+            <Route path="/" element={<Home />} />
+            <Route path="/CV" element={<CV />} />
+            <Route path="/Practice" element={<Practice />} />
+            <Route path="/Contact" element={<Contact />} />
+          {/* </div> */}
+          </Routes>
         </div>
       </div>
-    </BrowserRouter>
+    // </BrowserRouter>
   );
 }
 

@@ -1,48 +1,52 @@
 
-
-
-
-.rendered-resume h1 {
+.rendered-project h1 {
     font-size: 1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    /* margin-left: 9rem; */
 }
-.rendered-resume button {
+.rendered-project button {
     border: none;
     background-color: #ddcacb;
     font-size: 1rem;
 }
-.rendered-resume button:hover {
+.rendered-project button:hover {
     font-size: 1.1rem;
     cursor:pointer;
 }
 
 
-.resume-card {
+.project-card {
     margin-bottom: 1rem;
-    /* padding-right: 2rem; */
-    /* padding-left: 1rem; */
-    /* border-left: 4px dotted black; */
     
 }
-.resume-card-content {
+.project-card-content {
     display: flex;
     justify-content: center;
     
 }
 
-.resume-card-content p {
+.project-card-content p {
     font-size: 1rem;
-    width: 15rem;
-    margin-right: 6rem;
-    margin-bottom: 0.5rem;
+    width: 30rem;
+    margin-right: 7rem;
 }
-.resume-card-content h5 {
+.project-card-content h5 {
     font-style: italic;
     font-weight: 500;
 }
-.date-text {
-    /* text-align: start; */
+.project-card .date-text {
+    text-align: start;
     width: 10rem;
+}
+.project-card .text-left {
+    text-align: start;
+    width: 40rem;
+    margin-bottom: 3rem;
+}
+.project-card .text-right {
+    text-align: start;
+    margin-bottom: 1rem;
+    width: 35rem;
 }
 
 

@@ -1,37 +1,41 @@
 span {
-    font-family: "mr-eaves-modern", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    color: #8F502F;
   }
 a {
     text-decoration: none;
 }
 .navbar {
+    padding-top: 5rem;
     padding-left: 2rem;
-    background-color: #0e6151;
-    width: 18rem;
+    background-color: #221E1D;
+    width: 12rem;
     height: 100%;
     position: fixed;
 }
 .navbar-header {
     padding-top: 1rem;
     display: flex;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
 }
 .navbar-header img {
     box-sizing: content-box;
-    width: 9rem;
+    width: 8.5rem;
     height: 8.5rem;
     aspect-ratio: 4/4;
-    border-radius: 100% / 125% 125% 80% 80%;
-    border: 7px solid #08372e;
+    border-radius: 100% / 100% 100% 100% 100%;
+    /* border: 7px solid #08372e; */
 }
 .navbar-name {
-    margin-left: 0.8rem;
+    /* margin-left: 0.8rem; */
+    text-align: left;
 }
 .navbar-name h1 {
-    color: #fff;
+    font-size: 1rem;
+    color: #8F502F;
 }
 .navbar-socials {
     font-size: 1.3rem;
@@ -42,18 +46,20 @@ a {
     
 }
 .navbar-socials i {
-    color: #fff;
+    color: #8F502F;
 }
 .navbar-links {
     margin-top: 2rem;
-    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: right;
 }
 .navbar-links li {
-    color: #fff;
+    color: #8F502F;
     margin-bottom: 1rem;
+    list-style: none;
 }
 .navbar-links a {
-    color: #fff;
+    color: #8F502F;
     text-decoration: none;
 }
 .navbar-links i{

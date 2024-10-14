@@ -6,31 +6,31 @@ const SchoolComponent = () => {
     const schoolList = [
         {
           "id": 1,
-          // "date": "2020/08–2023/06",
-          // "location": "Stockholms Universitet",
-          // "title": "Marknadskommunikation (GI), Kandidatprogram",
-          "description": "ARTS UNI. BOURNEMOUTH, MASTERS OF FINE ART, 60P, SEP 2023 - AUG 2024"
+          "date": "2023 - 2024",
+          "location": "Arts University Bournemouth",
+          "title": "MA Fine Art ",
+          // "description": "ARTS UNI. BOURNEMOUTH, MASTERS OF FINE ART, 60P, SEP 2023 - AUG 2024"
         },
         {
           "id": 2,
-          // "date": "2019/09–2019/11",
-          // "location": "Berghs School of Communication",
-          // "title": "Grafisk Design Start",
-          "description": "STOCKHOLM UNI., CURATORIAL QUALIFICATION, 30HP, AUG 2021 - JAN 2022"
+          "date": "2021 - 2022",
+          "location": "Stockholm University",
+          "title": "Curatorial Studies, Advanced Level",
+          // "description": "STOCKHOLM UNI., CURATORIAL QUALIFICATION, 30HP, AUG 2021 - JAN 2022"
         },
         {
           "id": 3,
-          // "date": "2019/09–2019/11",
-          // "location": "Berghs School of Communication",
-          // "title": "Grafisk Design Start",
-          "description": "STOCKHOLM UNI., BACHELORS IN ART HISTORY, FOCUS ON MUSEUMS AND CULTURAL HERITAGE, 180HP, AUG 2017 - AUG 2021"
+          "date": "2018 - 2021",
+          "location": "Stockholm University",
+          "title": "BA Musicology",
+          // "description": "STOCKHOLM UNI., BACHELORS IN ART HISTORY, FOCUS ON MUSEUMS AND CULTURAL HERITAGE, 180HP, AUG 2017 - AUG 2021"
         },
         {
           "id": 4,
-          // "date": "2019/09–2019/11",
-          // "location": "Berghs School of Communication",
-          // "title": "Grafisk Design Start",
-          "description": "STOCKHOLMS UNI., BACHELORS IN MUSICOLOGY, 180HP, AUG 2018 -JAN 2021"
+          "date": "2017 - 2021",
+          "location": "Stockholm University",
+          "title": "BA Art History with focus on museums and cultural heritage",
+          // "description": "STOCKHOLMS UNI., BACHELORS IN MUSICOLOGY, 180HP, AUG 2018 -JAN 2021"
         }
         
       ]
