@@ -4,6 +4,7 @@ import SchoolComponent from '../components/Resume/SchoolComponent'
 import './CV.css'
 import { Link } from 'react-router-dom'
 import Exhibitions from '../components/Resume/Exhibitions'
+import Scholarships from '../components/Resume/Scholarships'
 
 const CV = () => {
   return (
@@ -17,6 +18,9 @@ const CV = () => {
         </div>
       <div className='resume-components'>
         <Exhibitions />
+        </div>
+      <div className='resume-components'>
+        <Scholarships />
         </div>
     </div>
   )
