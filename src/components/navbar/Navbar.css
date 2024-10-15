@@ -32,13 +32,15 @@ a {
 .navbar-name {
     /* margin-left: 0.8rem; */
     text-align: left;
+    margin-left: -0.5rem;
 }
 .navbar-name h1 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #8F502F;
+    font-weight: 100;
 }
 .navbar-socials {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     margin-top: 0.6rem;
     margin-right: 2.4rem;
     display: flex;

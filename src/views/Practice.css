@@ -1,9 +1,11 @@
 .project-page {
     padding-top: 4rem;
     padding-bottom: 3rem;
-    padding-left: 3rem;
+    padding-left: 6rem;
     padding-right: 3rem;
     background-color: #443f3c;
+    min-height: 100vh;
+    
 }
 .project-page > h1{
     z-index: 3;
@@ -17,17 +19,43 @@
 .project-page header {
 background-color: blue;
 }
+.project-page li {
+  list-style: none;
+}
 
 
 /* Accordion CSS */
 
-.title {
-    font-size: 1.5rem;
+.accordion-title {
+    font-size: 1.7rem;
     font-weight: bold;
-    background-color: black;
+    background-color: #443f3c;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+
   }
   
-  .description {
-    color: var(--ifm-color-gray-600);
-    margin: 0;
+  .accordion-description {
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+  }
+  .accordion-description p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .accordion-description li {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  /* .szh-accordion {
+    
+  } */
+  .szh-accordion__item {
+    margin-bottom: 3rem;
+  }
+  .szh-accordion__item-content {
+    transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+  }
+  .szh-accordion__item-btn { 
+    border: none;
   }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
-import Headshot from '../../assets/SofiaWebpageProfilePic.jpg'
+import Headshot from '../../assets/SofiaWebpageProfilePicCropped.jpg'
 // import { HashLink } from 'react-router-hash-link';
 
 
@@ -30,6 +30,7 @@ const Navbar = () => {
       </div>
       <div className='navbar-socials'>
         <Link to="https://www.linkedin.com/in/sofia-m%C3%A4kiniemi-832522228/" target={'_blank'}><i className="fa-brands fa-linkedin"></i></Link>
+        <Link to="https://www.youtube.com/@SofiaM%C3%A4kiniemiArtist" target={'_blank'}><i class="fa-brands fa-youtube"></i></Link>
         <Link to="https://www.instagram.com/smakiniemi_art/" target={'_blank'}><i className="fa-brands fa-instagram"></i></Link>
        
        
