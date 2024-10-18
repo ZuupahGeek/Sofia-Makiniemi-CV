@@ -51,20 +51,31 @@
 
 @media only screen and (max-width: 1300px) {
 
-    /* .schoolComponent {
-        width: 18rem;
-    }
-    .jobComponent {
-        width: 25rem;
-    } */
+   
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 950px) {
 
-    /* .schoolComponent {
-        width: 15rem;
+    .resume-card-content p {
+        font-size: 1.5rem;
+        width: 10rem;
+        margin-bottom: 0.5rem;
     }
-    .jobComponent {
-        width: 20rem;
-    } */
+    .resume-card-content {
+        justify-content: space-between;
+        
+    }
+}
+@media only screen and (max-width: 750px) {
+
+    .resume-card-content p {
+        font-size: 1.5rem;
+        width: 10rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0rem;
+    }
+    .resume-card-content {
+        justify-content: space-between;
+        
+    }
 }

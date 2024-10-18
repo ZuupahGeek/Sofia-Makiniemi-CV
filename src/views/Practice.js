@@ -1,7 +1,6 @@
 import React from 'react'
 import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 import './Practice.css'
-
 import CarouselTheEverydayProject from '../components/Carousel/CarouselTheEverydayProject'
 import CarouselTheGriefProject from '../components/Carousel/CarouselTheGriefProject';
 
@@ -14,7 +13,7 @@ export default function Practice() {
     <Accordion transition transitionTimeout={250}>
     <AccordionItem header={
       <div>
-        <p className='accordion-title'>The Grief Project</p>     
+        <p className='accordion-title'>The Grief Project <i class="fa-solid fa-chevron-down"></i></p>     
       </div>
     }>
       <div className='accordion-description'>
@@ -34,7 +33,7 @@ export default function Practice() {
 
     <AccordionItem header={
       <div>
-        <p className='accordion-title'>The Everyday Project</p>
+        <p className='accordion-title'>The Everyday Project <i class="fa-solid fa-chevron-down"></i></p>
             
       </div>
     }>

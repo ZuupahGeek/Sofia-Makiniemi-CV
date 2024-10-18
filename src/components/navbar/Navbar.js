@@ -17,13 +17,13 @@ import Headshot from '../../assets/SofiaWebpageProfilePicCropped.jpg'
 const Navbar = () => {
   
   return (
-    <nav className='navbar'>
-      <div className='navbar-header'>
+    <nav className='navbar-custom'>
+      <div className='navbar-header-custom'>
         <NavLink to="/" >
           <img src={Headshot} alt="" />
         </NavLink>
       </div>
-      <div className='navbar-name'>
+      <div className='navbar-name-custom'>
         <NavLink to="/" > 
           <h1>Sofia Mäkiniemi</h1>
         </NavLink>

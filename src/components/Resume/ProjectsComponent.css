@@ -63,12 +63,33 @@
     } */
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 950px) {
 
-    /* .schoolComponent {
-        width: 15rem;
-    }
-    .jobComponent {
+    .project-card .text-left {
+        text-align: start;
         width: 20rem;
-    } */
+        margin-bottom: 3rem;
+        font-style: italic;
+    }
+    .project-card .text-right {
+        text-align: start;
+        margin-bottom: 1rem;
+        width: 24rem;
+    }
+}
+@media only screen and (max-width: 750px) {
+
+    .project-card-content {
+        display: block;
+        justify-content: center;
+        
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    .project-card-content {
+        display: block;
+        justify-content: center;
+        
+    }
 }

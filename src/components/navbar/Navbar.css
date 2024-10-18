@@ -6,9 +6,10 @@ span {
     color: #8F502F;
   }
 a {
-    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none !important;
 }
-.navbar {
+.navbar-custom {
     padding-top: 5rem;
     padding-left: 2rem;
     background-color: #221E1D;
@@ -16,12 +17,12 @@ a {
     height: 100%;
     position: fixed;
 }
-.navbar-header {
+.navbar-header-custom {
     padding-top: 1rem;
     display: flex;
     /* padding-left: 2rem; */
 }
-.navbar-header img {
+.navbar-header-custom img {
     box-sizing: content-box;
     width: 8.5rem;
     height: 8.5rem;
@@ -29,15 +30,16 @@ a {
     border-radius: 100% / 100% 100% 100% 100%;
     /* border: 7px solid #08372e; */
 }
-.navbar-name {
+.navbar-name-custom {
     /* margin-left: 0.8rem; */
     text-align: left;
     margin-left: -0.5rem;
 }
-.navbar-name h1 {
+.navbar-name-custom h1 {
     font-size: 1.3rem;
     color: #8F502F;
     font-weight: 100;
+    border: none !important;
 }
 .navbar-socials {
     font-size: 1.7rem;

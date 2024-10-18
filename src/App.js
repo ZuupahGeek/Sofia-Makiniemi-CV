@@ -9,6 +9,7 @@ import CV from './views/CV';
 // import Projects from './views/Projects';
 import Contact from './views/Contact';
 import Practice from './views/Practice';
+import Footer from './components/Footer/Footer';
 // import Exhibitions from './views/Exhibitions';
 // import Footer from './components/Footer/Footer';
 
@@ -29,6 +30,7 @@ function App() {
           {/* </div> */}
           </Routes>
         </div>
+        <Footer/>
       </div>
     // </BrowserRouter>
   );
