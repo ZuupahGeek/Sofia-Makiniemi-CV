@@ -24,7 +24,7 @@ function App() {
           <Routes>
             {/* <div id='views'>     */}
             <Route path="/" element={<Home />} />
-            <Route path="/CV" element={<CV />} />
+            <Route path="/Resume" element={<CV />} />
             <Route path="/Practice" element={<Practice />} />
             <Route path="/Contact" element={<Contact />} />
           {/* </div> */}

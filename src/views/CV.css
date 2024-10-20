@@ -12,13 +12,15 @@
 
 }
 .resume-page > a > p {
-    margin-left: 15rem;
+    margin-left: 15.5rem;
     margin-bottom: 4rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #8F502F;
 }
 .resume-components {
     padding-top: 1rem;
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
 
 

@@ -8,7 +8,7 @@ const SchoolComponent = () => {
           "id": 1,
           "date": "2023 - 2024",
           "location": "Arts University Bournemouth",
-          "title": "MA Fine Art ",
+          "title": "Master of Fine Art, with distinction ",
           // "description": "ARTS UNI. BOURNEMOUTH, MASTERS OF FINE ART, 60P, SEP 2023 - AUG 2024"
         },
         {
@@ -22,14 +22,14 @@ const SchoolComponent = () => {
           "id": 3,
           "date": "2018 - 2021",
           "location": "Stockholm University",
-          "title": "BA Musicology",
+          "title": "Bachelor of Musicology",
           // "description": "STOCKHOLM UNI., BACHELORS IN ART HISTORY, FOCUS ON MUSEUMS AND CULTURAL HERITAGE, 180HP, AUG 2017 - AUG 2021"
         },
         {
           "id": 4,
           "date": "2017 - 2021",
           "location": "Stockholm University",
-          "title": "BA Art History with focus on museums and cultural heritage",
+          "title": "Bachelor of Art History",
           // "description": "STOCKHOLMS UNI., BACHELORS IN MUSICOLOGY, 180HP, AUG 2018 -JAN 2021"
         }
         

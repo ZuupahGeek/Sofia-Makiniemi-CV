@@ -23,6 +23,7 @@
 .contact-content a {
     font-size: 2rem;
     text-decoration: none;
+    color: rgb(172, 172, 172);
 }
 .contact-mail {
     padding-bottom: 2rem;

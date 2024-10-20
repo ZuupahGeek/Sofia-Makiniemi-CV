@@ -42,8 +42,8 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/CV">
-            <span>CV</span>
+          <NavLink to="/Resume">
+            <span>Resume</span>
           </NavLink>
         </li>
         <li>

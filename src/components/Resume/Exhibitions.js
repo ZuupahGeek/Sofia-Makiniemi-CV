@@ -8,21 +8,35 @@ const Exhibitions = () => {
           "id": 1,
           "date": "2024",
           // "location": "",
-          "title": "Art From The Basement - TheGallery, Arts University Bournemouth",
+          "title": "Postgraduate Exhibition 2024 - TheGallery, Arts University Bournemouth",
 
         },
         {
           "id": 2,
           "date": "",
           // "location": "",
-          "title": "We Would Like To Say Something... - Bournemouth",
-          // "description1": ""
+          "title": "Art From The Basement - TheGallery, Arts University Bournemouth",
+
         },
         {
           "id": 3,
           "date": "",
+          // "location": "",
+          "title": "We Would Like To Say Something... - Bournemouth",
+          // "description1": ""
+        },
+        {
+          "id": 4,
+          "date": "",
           // "location": "Internship",
           "title": "3rd Community Exhibition - Circular ArtSpace, Bristol",
+          // "description1": ""
+        },
+        {
+          "id": 4,
+          "date": "2023",
+          // "location": "Internship",
+          "title": "Husby Konstsalong 2023 - Husby Konsthall, Stockholm",
           // "description1": ""
         }
       ]

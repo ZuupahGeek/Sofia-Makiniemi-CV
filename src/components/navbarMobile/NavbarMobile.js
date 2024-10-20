@@ -27,7 +27,7 @@ const navbarMobile = () => {
             style={{ maxHeight: '100px' }}
           >
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/CV">CV</NavLink>
+            <NavLink to="/Resume">Resume</NavLink>
             <NavLink to="/Practice">Practice</NavLink>
             <NavLink to="/Contact">Contact</NavLink>
             <div className='navbar-mobile-socials'>

@@ -4,19 +4,20 @@ import SchoolComponent from '../components/Resume/SchoolComponent'
 import './CV.css'
 import Exhibitions from '../components/Resume/Exhibitions'
 import Scholarships from '../components/Resume/Scholarships'
+import CV_PDF from '../assets/CV.pdf'
 
 const CV = () => {
   return (
     <div className='resume-page'>
-      {/* <Link><p>Download CV</p></Link> */}
+      <a href={CV_PDF} rel="noreferrer" target='_blank'><p>Download resume</p></a>
       <div className='resume-components'>  
         <SchoolComponent />
       </div>
       <div className='resume-components'>
-        <CuritorialProjects />
-        </div>
-      <div className='resume-components'>
         <Exhibitions />
+        </div>
+        <div className='resume-components'>
+        <CuritorialProjects />
         </div>
       <div className='resume-components'>
         <Scholarships />
