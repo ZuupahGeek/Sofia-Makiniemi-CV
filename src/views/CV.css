@@ -25,19 +25,30 @@
 
 
 @media only screen and (max-width: 992px) {
-   
+    .resume-page > a > p {
+        margin-left: 13rem;
+        margin-bottom: 4rem;
+        font-size: 1.2rem;
+        border-bottom: 2px solid #8F502F;
+    }
     
 }
 
 @media only screen and (max-width: 768px) {
 
-    .resume-components {
-      
+    .resume-page > a > p {
+        margin-left: 5rem;
+        margin-bottom: 4rem;
+        font-size: 1.2rem;
+        border-bottom: 2px solid #8F502F;
     }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 520px) {
 
-    .resume-components {
-      
+    .resume-page > a > p {
+        margin-left: 2rem;
+        margin-bottom: 4rem;
+        font-size: 1.2rem;
+        border-bottom: 2px solid #8F502F;
     }
 }

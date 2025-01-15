@@ -80,3 +80,41 @@
         
     }
 }
+@media only screen and (max-width: 520px) {
+
+    .resume-card-content p {
+        width: 7rem;
+        font-size: 1rem;
+        margin-right: 0rem;
+    }
+    .resume-card-content {
+        justify-content: space-between;
+        
+    }
+    .date-text {
+        /* text-align: start; */
+        width: 7rem;
+    }
+}
+@media only screen and (max-width: 420px) {
+
+    .resume-card-content p {
+        width: 15rem;
+        font-size: 1rem;
+        margin-right: 0rem;
+    }
+    .resume-card-content {
+        justify-content: center;
+        
+    }
+    .date-text {
+        /* text-align: start; */
+        width: 5rem;
+        display: inline-block;
+    }
+    .resume-card-content {
+        display: block;
+        /* justify-content: center; */
+        
+    }
+}

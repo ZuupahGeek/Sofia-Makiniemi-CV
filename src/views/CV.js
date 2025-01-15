@@ -15,13 +15,13 @@ const CV = () => {
       </div>
       <div className='resume-components'>
         <Exhibitions />
-        </div>
-        <div className='resume-components'>
+      </div>
+      <div className='resume-components'>
         <CuritorialProjects />
-        </div>
+      </div>
       <div className='resume-components'>
         <Scholarships />
-        </div>
+      </div>
     </div>
   )
 }
