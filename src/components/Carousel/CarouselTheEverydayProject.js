@@ -20,52 +20,74 @@ import TEP_IMG11 from '../../assets/artwork/The Everyday Project website/The Eve
 class CarouselTheEverydayProject extends Component {
     render() {
         return (
-            <Carousel swipeable emulateTouch infiniteLoop>
+            <Carousel swipeable emulateTouch infiniteLoop useKeyboardArrows>
                 <div className="carousel-item-custom">
+                    <div>
                     <img alt='Art Deco In Poole' src={TEP_IMG01} />
                     {/* <p className="legend"></p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
+                    <div>
                     <img alt='Cross Section' src={TEP_IMG02} />
                     {/* <p className="legend"></p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
+                    <div>
                     <img alt='Kristina' src={TEP_IMG03} />
                     {/* <p className="legend"></p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
+                    <div>
                     <img alt='Youngest Sibling' src={TEP_IMG09} />
                     {/* <p className="legend"></p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
+                    <div>
                     <img alt='Youngest Sibling' src={TEP_IMG11} />
                     {/* <p className="legend"></p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
+                    <div>
                     <img alt='Kristina' src={TEP_IMG10} />
                     {/* <p className="legend"></p> */}
+                    </div>
                 </div>
                 
                 
                 <div className="carousel-item-custom">
+                    <div>
                     <img alt='Youngest Sibling' src={TEP_IMG06} />
                     {/* <p className="legend"></p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
+                    <div>
                     <img alt='Youngest Sibling' src={TEP_IMG07} />
                     {/* <p className="legend"></p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
+                    <div>
                     <img alt='Youngest Sibling' src={TEP_IMG08} />
                     {/* <p className="legend"></p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
+                    <div>
                     <img alt='The Avenue' src={TEP_IMG04} />
                     {/* <p className="legend"></p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
+                    <div>
                     <img alt='Venus' src={TEP_IMG05} />
                     {/* <p className="legend"></p> */}
+                    </div>
                 </div>
                 
             </Carousel>

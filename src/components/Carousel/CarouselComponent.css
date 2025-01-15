@@ -1,15 +1,19 @@
-.carousel-item-custom img{
-    max-height: 40rem;
-    max-width:fit-content;
-    border: 2px solid #0000ff;
+
+.carousel-image {
+    height: 500px;
 }
 .carousel-item-custom {
-    /* display: flex;
+
+    /* width: 20rem; */
+    display: flex;
     justify-content: center;
-    align-items: center; */
-    height: 40rem;
+    align-items: center;
+    overflow:auto;
+
 
 }
-.image-large {
-    /* border: 3px solid blue; */
+
+.szh-accordion {
+    margin: auto;
+    width: 55rem;
 }

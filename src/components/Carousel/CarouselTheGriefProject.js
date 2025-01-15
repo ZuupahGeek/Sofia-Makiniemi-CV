@@ -37,115 +37,169 @@ import TGP_IMG27 from '../../assets/artwork/The Grief Project webiste/WarehouseI
 class CarouselTheGriefProject extends Component {
     render() {
         return (
-            <Carousel swipeable emulateTouch infiniteLoop>
+            <Carousel swipeable emulateTouch infiniteLoop useKeyboardArrows>
                 <div className="carousel-item-custom">
-                    <img className='image-large' alt='' src={TGP_IMG01} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG01} />
+                    </div>
                     {/* <p className="legend">Art Deco In Poole</p> */}
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='image-large' alt='' src={TGP_IMG02} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG02} />
                     {/* <p className="legend">Cross Section</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom ">
-                    <img alt='' src={TGP_IMG03} />
+                    <div>
+                    <img className='carousel-image'alt='' src={TGP_IMG03} />
                     {/* <p className="legend">Kristina</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='image-large' alt='' src={TGP_IMG04} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG04} />
                     {/* <p className="legend">The Avenue</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='image-large' alt='' src={TGP_IMG05} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG05} />
                     {/* <p className="legend">Venus</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG06} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG06} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG07} />
+                <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG07} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG08} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG08} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG09} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG09} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG21} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG21} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG22} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG22} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG23} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG23} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG24} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG24} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG25} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG25} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG26} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG26} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG27} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG27} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG10} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG10} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG11} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG11} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG14} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG14} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG15} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG15} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG16} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG16} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG17} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG17} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG18} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG18} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG19} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG19} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG20} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG20} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG12} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG12} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
                 <div className="carousel-item-custom">
-                    <img className='carousel-item-custom-img-s' alt='' src={TGP_IMG13} />
+                    <div>
+                    <img className='carousel-image' alt='' src={TGP_IMG13} />
                     {/* <p className="legend">Youngest Sibling</p> */}
+                    </div>
                 </div>
             </Carousel>
         );
